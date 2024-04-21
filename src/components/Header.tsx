@@ -23,13 +23,13 @@ const Header: FC = () => {
                         >Главная</NavLink>
                       </li>
                       <li>
-                        <NavLink to={'/transactions'}className={({isActive}) => 
+                        <NavLink to={'/Profile'}className={({isActive}) => 
                             isActive ? 'text-white' : 'text-white/50 hover:text-white'
                         } 
                         >Профиль</NavLink>
                       </li>
                       <li>
-                        <NavLink to={'/categories'}className={({isActive}) => 
+                        <NavLink to={'/News'}className={({isActive}) => 
                             isActive ? 'text-white' : 'text-white/50 hover:text-white'
                         } 
                         >Лента</NavLink>

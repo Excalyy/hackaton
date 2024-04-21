@@ -19,10 +19,13 @@
     @apply flex gap-2 items-center text-white py-2 px-4 rounded-md;
   }
   .input{
-    @apply border-slate-800 bg-slate-700 bg-transparent p-2 border placeholder:text-white;
+    @apply rounded-md border border-slate-800 bg-slate-700 bg-transparent p-2 outline-none placeholder:text-white  focus:border-slate-300 placeholder:text-sm;
   }
   .container{
-    @apply max-w-[1000px];
+    @apply max-w-[1300px];
+  }
+  .select{
+    @apply w-full rounded-md border border-slate-400 bg-slate-900 text-sm dark:text-blue-100 justify-center items-center;
   }
 }
 @layer  utilities {
